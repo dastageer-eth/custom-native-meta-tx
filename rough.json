@@ -1,0 +1,34 @@
+{
+  "primaryType": "ForwardRequest",
+  "types": {
+    "EIP712Domain": [
+      { "name": "name", "type": "string" },
+      { "name": "version", "type": "string" },
+      { "name": "chainId", "type": "uint256" },
+      { "name": "verifyingContract", "type": "address" }
+    ],
+    "ForwardRequest": [
+      { "name": "from", "type": "address" },
+      { "name": "to", "type": "address" },
+      { "name": "value", "type": "uint256" },
+      { "name": "gas", "type": "uint256" },
+      { "name": "nonce", "type": "uint256" },
+      { "name": "data", "type": "bytes" }
+    ]
+  },
+  "domain": {
+    "name": "MinimalForwarder",
+    "version": "0.0.1",
+    "chainId": "5",
+    "verifyingContract": "0x97fB0b865c39a04E90C1d86D18A822B671cFDEb2"
+  },
+  "message": {
+    "from": "0x34b8874fd02868f620af6b540fa52ed2051db34e",
+    "to": "0x73361Dc222459184F4c01Ed392Cd6E8b3196a0D2",
+    "value": 0,
+    "gas": 210000,
+    "nonce": "0",
+    "data": "0x050a48980000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000679656c6c6f770000000000000000000000000000000000000000000000000000"
+  },
+  "signature": "0xfadd7c08eb032a14b7da3ad90eaa54b10010cdd1dfb14a769cb3fb60d6f004a24c3d29fb6bf0434b575f614e395b435a682040c64e7ff7f213727316da8343fb1b"
+}

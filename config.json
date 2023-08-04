@@ -1,0 +1,8 @@
+{
+    "forwarder": "0x97fB0b865c39a04E90C1d86D18A822B671cFDEb2",
+    "domain": "MinimalForwarder",
+    "version": "0.0.1",
+    "gasLimit": 210000,
+    "recipient": "0x73361Dc222459184F4c01Ed392Cd6E8b3196a0D2",
+    "method": "setFlagOwner(string)"
+}
